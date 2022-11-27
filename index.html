@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>sonali.ro</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" type="image/x-icon" href="icon.ico" />
+        <link href="styles.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" ></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+            integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.slim.js"></script>
+        <script src="https://cdn.jsdelivr.net/mark.js/7.0.0/jquery.mark.min.js"></script>
+
+    </head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-249938549-3"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-249938549-3');
+    </script>
+
+
+    <body id="page-top">
+
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+               
+                <a href="#"
+                class="navbar-brand" >
+                <img class="d-inline-block align-top" src="—Pngtree—white foam cleanser_6028682.png" width="30" height="30">
+                Sonali</a>
+                <!--Butonul de meniu pentru atunci cand se face pagina mai mica-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive" >
+                    <ul class="navbar-nav ms-auto" id="butoaneNavbar">
+                        <li class="nav-item" ><a class="nav-link " href="#about">Despre noi</a></li> <!-- Aici pot pune si "Acasa" si sa pun ceva idk -->
+                        <li class="nav-item"><a class="nav-link" href="SkinQuiz.html" target="_blank">Skin Quiz</a></li>
+                        
+                        <!--Dropdown-ul de la Shop-->
+                        <div class="dropdown">
+                            <li class="nav-item"><a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                                    <ul class="dropdown-menu dropdown-menu-dark bg-dark" aria-labelledby="navbarDropdown">
+                                        <li>
+                                            <a href="#" class="dropdown-item">Curatare ten</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-item">Hidratare</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-item">Ser pentru fata</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-item">Masti fata</a>
+                                        </li>
+                                    </ul>
+                            </li>
+                         </div>
+
+                        <!-- Pentru bara de cautare -->
+                        <li class="nav-item">
+                            <div class="input-group rounded">
+                                <input id="searchbar" type="text" name="search" class="form-control rounded" placeholder="Căutare" aria-label="Căutare" aria-describedby="search-addon" />
+                                    
+                              </div>
+                        </li>
+
+                        <li class="nav-item"><a class="nav-link" href="#help">Help</a></li>
+                    
+                        <!-- Iconita cu, cosul de cumparaturi-->
+                        <li class="nav-item"><a href="#" class="nav-link hidden-arrow" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                             </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                   
+        </nav>
+
+        <!-- Header-->
+        <!--Caruselul de imagini cu text peste-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <video width="100%" height="530" autoplay loop muted>
+                        <source src="Untitled video - Made with Clipchamp.mp4" type="video/mp4">
+                    </video>
+                  </div>
+              <div class="carousel-item" >
+                <img src="pexels-sora-shimazaki-5938648.jpg " height="530" width="910" alt="...">
+                <div class="carousel-caption">
+                    <div class="container px-4 text-center">
+                        <h1 class="fw-bolder">Descoperă-ți tipul de ten.</h1>
+                        <a class="btn btn-lg btn-light" href="../dist/SkinQuiz.html" target="_blank">
+                           Skin Quiz</a>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="pexels-akhila-mistura-7043582.jpg" height="530" width="950" alt="...">
+                <div class="carousel-caption">
+                    <div class="container px-4 text-center">
+                        <h1 class="fw-bolder" style="color: #5a6230">Sute de produse pentru nevoile tale.</h1>
+                        <p class="lead">La doar un click distanță.</p>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="pexels-sales-trust-10825667.jpg" height="530" width="950" alt="...">
+                <div class="carousel-caption">
+                    <div class="container px-4 text-center">
+                        <h1 class="fw-bolder" style="color:#50172a">Descoperă cele mai vândute produse.</h1>
+                        <p class="lead" style="color:#50172a">Derulează în jos ↓</p>
+                    </div>
+                </div>
+              </div>
+              
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+  
+       
+        <!-- About section-->
+        <section id="about">
+            <div id="context1" class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Despre noi</h2>
+                        <p class="lead"><h5>“Îngrijirea tenului este mai importantă decât acoperirea lui.”</h5></p>
+                        <p class="lead">În spatele poveștii Sonali a fost întotdeauna dorința de învățare a oamenilor cu 
+                            privire la procesul de îngrijire personală. Ne dorim ca acest site să fie o adevărată țintă 
+                            și inspirație pentru toți cei care își doresc să învețe, în primul rând cum să aibă o rutină de îngrijire corectă cu
+                            produse de calitate. Produsele noastre sunt ușor de folosit și sunt alese în așa 
+                            fel încât să îți ofere posibilitatea de a avea o piele sănătoasă, hidratată, curată, proaspătă și strălucitoare. 
+                        </p>
+                        <p class="lead">Investește în pielea ta, va fi în permanență cu tine!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Cautare(search) in About-->
+        <script>
+            $(function() {
+                $("input").on("input.highlight", function() {
+                // Determine specified search term
+                var searchTerm = $(this).val();
+                // Highlight search term inside a specific context
+                $("#context1").unmark().mark(searchTerm);
+                }).trigger("input.highlight").focus();
+            });
+        </script>
+
+       <!-- Best Sellers-->
+       <section class="bg-light" id="bestsellers">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2>Best sellers</h2>
+                    <table>
+                        <tr>
+                            <td type="button"><img src="d862416e9433b871aef0e77d439d0eae.jpg" width="250"></td>
+                            <td><img src="338dd0f04724e300550185d2c22c2eac.jpg" width="250"></td>
+                            <td type="button"><img src="26f29ef462f9bfbe0b054d2d56506992.jpg" width="250"></td>
+                        </tr>
+                        <tr>
+                            <td type="button"><img src="pexels-misolo-cosmetic-6767784.jpg" width="250"></td>
+                            <td><img src="pexels-vie-studio-6167445.jpg" width="250"></td>
+                            <td type="button"><img src="2b629f199fa4b37dfd589da815185584.jpg" width="250"></td>
+                        </tr>
+                        
+                        <!-- In caz ca e nevoie de tabel tabel, e mai jos varianta asta-->
+                        <!--
+                            <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Imagine</th>
+                            <th scope="col">Nume</th>
+                            <th scope="col">Tip produs</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td class="w-25">
+                                <img src="../icons/d862416e9433b871aef0e77d439d0eae.jpg" class="img-fluid img-thumbnail" alt="Spf">
+                            </td>
+                            <td>Salt & Stone</td>
+                            <td>Spf 50</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td class="w-25">
+                                <img src="../icons/aef0ec540fe5ccb3595bfb73fe780817.jpg" class="img-fluid img-thumbnail" alt="Spf">
+                            </td>
+                            <td>Nuori</td>
+                            <td>Mască hidratantă</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td class="w-25">
+                                <img src="../icons/26f29ef462f9bfbe0b054d2d56506992.jpg" class="img-fluid img-thumbnail" alt="Spf">
+                            </td>
+                            <td>ROSE Hibiscus</td>
+                            <td>Apă de trandafir</td>
+                          </tr>
+                        </tbody>
+                      </table>        
+                        -->
+                   
+                    </table>
+               
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Sectiunea de HELP-->
+    <section id="help">
+        <div id="context2" class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2>Help. </h2>
+                    <p class="lead">Găsiți răspunsuri la întrebări frecvente sau contactați-ne.</p>
+
+                        <div class="accordion">
+                            <div class="accordion-item" id="question1">
+                                <a class="accordion-link" href="#question1" style="line-height: 45px;">Care sunt costurile si termenele de livrare?
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="icon ion-md-add" viewBox="0 0 16 16">
+                                        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="icon ion-md-remove" viewBox="0 0 16 16">
+                                        <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+                                    </svg>
+                                </a>
+                                <div class="answer">
+                                    <p>Sonali livrează produsele exclusiv pe teritoriul României. Produsele vor fi livrate Clientului sau persoanei desemnate de Client prin intermediul unei societăți de curierat rapid (denumită în continuare ”Curierul”) la adresa de livrare menționată în Formular.
+                                    Livrarea, modalitatea de livrare precum și denumirea Curierului sunt menționate în Mesajul electronic de confirmare.</p>
+                                    <p>Clientul se obligă să achite costul livrării Produsului, respectiv suma de 15 Lei în cazul comenzilor de până la 170 Lei.</p>
+                                    <p>Pentru comenzile cu o valoare mai mare de 170 Lei, Clientul va beneficia de livrare gratuită.</p>
+                                    <p>Sonali ofera urmatoarele tipuri de livrare in Romania:</p>
+                                    <p>
+                                        <ol>
+                                            <li>Pentru ridicarea din magazin, ai la dispozitie 7 zile pentru a-ti ridica comanda prin prezentarea actului de identitate.</li>
+                                            <li>Daca ai ales un punct de colectare easybox, timpul de ridicare este de 2 zile.</li>
+                                            <li>Zile lucratoare: de luni pana sambata, cu exceptia sarbatorilor legale.</li>
+                                        </ol>
+                                    </p>
+                                    <p></p><b>Important:</b> In perioadele cu volum mare, cum ar fi Black Friday, Craciun sau vanzarile sezoniere, termenele de livrare pot fi mai lungi. </p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item" id="question2">
+                                <a class="accordion-link" href="#question2" style="line-height: 45px;">Cum returnez un produs?
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="icon ion-md-add" viewBox="0 0 16 16">
+                                        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="icon ion-md-remove" viewBox="0 0 16 16">
+                                        <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+                                    </svg>
+                                </a>
+                                <div class="answer">
+                                    <p>Returul se poate face în interval de 14 de zile lucrătoare de la dată la care ați intrat în posesia comenzii fără a fi nevoit să justificați decizia de retragere și este GRATUIT. </p>
+                                    <p>În acest caz, va rugăm să urmați pașii de mai jos:</p>
+                                    <p>Să ne aduceți la cunoștință  decizia dvs, completând formulatul de retur sau care poate fi descărcat de aici: <u>Descarcă formular de retragere</u>. În cazul în care optați pentru a descărca formularul, va rugăm să îl trimiteți în atenția echipei Sonali la adresa comenzionline@sonali.ro. Sonali va confirmă Clientului, fără întârziere, pe un suport durabil, de exemplu prin e-mail, confirmarea de primire a cererii de retragere în termen de 2 zile lucrătoare.
+                                        <br>Echipa Sonali va trimite curierul la adresa indicată de dumneavoastră pentru a ridică coletul. În acest caz costul aferent transpontului este GRATUIT. Dacă doriți să trimiteți returul cu un alt serviciu de curierat, curier cu care Sonali nu are relații comerciale, costul de transport va fi suportat de dumneavoastră.
+                                        <br>După ajungerea coletului la depozitul Sonali, se va face recepția și se va verifică dacă au fost îndeplinite condițiile de retur de mai jos sau pe care le găsiți stipulate în Termeni și Condiții Sonali.
+                                        <br>Odată verificat și acceptat returul se va procesa conform prin returnare contravaloare.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item" id="question3">
+                                <a class="accordion-link" href="#question3" style="line-height: 45px;">Cum pot obtine esantioane?
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor"class="icon ion-md-add" viewBox="0 0 16 16">
+                                        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="icon ion-md-remove" viewBox="0 0 16 16">
+                                        <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+                                    </svg>
+                                </a>
+                                <div class="answer">
+                                    <p>Mostrele vi se vor oferi pentru orice achizitie in magazin sau pe sonali.ro (cu exceptia Click & Collect). Veti putea descoperi diferitele noastre game de produse, precum si toate cele mai noi dezvoltari de frumusete!</p>
+                                    <p><b>Important:</b> Aceste esantioane sunt disponibile pe durata aprovizionarii noastre. Daca mostrele pe care le-ati selectat nu sunt disponibile, personalul nostru va fi sigur ca va include alte probe in comanda ta.</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item" id="question4">
+                                <a class="accordion-link" href="#question4" style="line-height: 45px;">Cum folosesc un cod de reducere?
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="icon ion-md-add" viewBox="0 0 16 16">
+                                        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="icon ion-md-remove" viewBox="0 0 16 16">
+                                        <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+                                    </svg>
+                                </a>
+                                <div class="answer">
+                                    <p>Pașii pentru introducerea codului în comandă sunt: Adaugă în coș produsul/produsele preferate. Vizualizează coșul de cumpăraturi. Introdu codul voucherului în campul dedicat "Introduceţi codul voucherului". Click ENTER și finalizează comanda. De restul ne ocupăm noi.</p>
+                                </div>
+                            </div>
+                        </div>
+                    <p class="lead text-center">Nu ai gasit ce cautai?
+                        <button class="button-contact" type="button" data-bs-toggle="modal" data-bs-target="#myModal">Contacteaza-ne</button>
+                        <div class="modal fade" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Contacteaza-ne</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form class="needs-validation" novalidate>
+                                            <div class="mb-3">
+                                                <label for="name" class="form-label">Nume & Prenume</label>
+                                                <input type="text" class="form-control" id="name" name="name" placeholder="Numele complet" required>
+                                                <div class="invalid-feedback">Vă rugăm, introduceți numele complet.</div>
+                                            </div>
+                                            <div>
+                                                <label for="email" class="form-label" >Email</label>
+                                                <input type="email" class="form-control" id="email" name="email" placeholder="name@yahoo.com" required>
+                                                <div class="invalid-feedback">Vă rugăm, introduceți email-ul.</div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="mesaj" class="form-label">Mesaj</label>
+                                                <textarea class="form-control" id="mesaj" name="mesaj" placeholder="Mesajul dumneavoastră" required></textarea>
+                                                <div class="invalid-feedback">Scrieti un mesaj.</div>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                                <label class="form-check-label" for="invalidCheck">
+                                                  Acceptă termenii și condițiile.
+                                                </label>
+                                                <div class="invalid-feedback">
+                                                  Trebuie să acceptați termenii și condițiile înainte de a trimite formularul.
+                                                </div>
+                                              </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="submit" class="btn btn-dark" id="submit" name="submit">Trimite</button>
+                                        <button type="cancel" class="btn btn-dark" data-bs-dismiss="modal">Anuleaza</button>
+                                    </div>
+                                </form>
+                                </div>
+                            </div>
+                        </div>
+                    </p> 
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!--Cautare(search) in Help(cu tot cu raspunsuri)-->
+     <script>
+        $(function() {
+            $("input").on("input.highlight", function() {
+            // Determine specified search term
+            var searchTerm = $(this).val();
+            // Highlight search term inside a specific context
+            $("#context2").unmark().mark(searchTerm);
+            }).trigger("input.highlight").focus();
+        });
+    </script>
+
+    <!-- Contact section sa fie pop-up-->
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+        <div id="context3" class="row-footer">
+            <div class="column">
+                <ol>
+                    <a class="m-5 text-white" style="text-decoration: none; line-height: 50px;">Contact</a>
+                </ol>
+                <ol>
+                    <a class="m-5 text-grey" style="text-decoration: none; line-height: 20px;">0741076461</a>
+                </ol>
+                <ol>
+                    <a data-target="#myModal" data-bs-toggle="modal" data-bs-target="#myModal" class="m-5 text-grey" style="text-decoration: none;" href="#myModal"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                      </svg>  Formular de contact</a>
+                </ol>
+            </div>
+
+            <div class="column">
+                <ol>
+                    <a class="m-5 text-white" style="text-decoration: none; line-height: 50px;">Informații</a>
+                </ol>
+                <ol>
+                    <a class="m-5 text-grey" style="text-decoration: none; line-height: 20px;">Termeni și condiții</a>
+                </ol>
+                <ol>
+                    <a class="m-5 text-grey" style="text-decoration: none; line-height: 20px;">Politica de confidențialitate</a>
+                </ol>
+                <ol>
+                    <a class="m-5 text-grey" style="text-decoration: none; line-height: 20px;">Politica de cookies</a>
+                </ol>
+            </div>
+
+            <div class="column">
+                <ol>
+                    <a class="m-5 text-white" style="text-decoration: none; line-height: 50px;">Extras</a>
+                </ol>
+                <ol>
+                    <a class="m-5 text-grey" style="text-decoration: none; line-height: 20px;">Puncte de recompensă</a>
+                </ol>
+                <ol>
+                    <a class="m-5 text-grey" style="text-decoration: none; line-height: 20px;">Istoric comenzi</a>
+                </ol>
+                <ol>
+                    <a class="m-5 text-grey" style="text-decoration: none; line-height: 20px;">Blog</a>
+                </ol>
+                <ol>
+                    <a class="m-5 text-grey" style="text-decoration: none; line-height: 20px;">ANPC</a>
+                </ol>
+            </div>
+        </div>
+    
+        <div class="sites">
+            <a href="https://www.instagram.com/ghilllis/" style="text-decoration: none;" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"  class="insta" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                </svg>
+            </a> 
+            <a href="https://www.facebook.com/denisaghilicica/" style="text-decoration: none;" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="facebook"  viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                </svg>
+            </a> 
+            <a href="https://www.tiktok.com/en/" style="text-decoration: none;" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="tiktok" viewBox="0 0 16 16" >
+                    <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"/>
+                </svg>
+            </a>
+        </div>
+        <p></p>
+        <span class="line"></span>
+        <div class="container px-4"><p class="m-5 text-center text-white">Copyright &copy; Sonali 2022</p></div>
+
+         <!--Cautare(search) in About-->
+         <script>
+            $(function() {
+                $("input").on("input.highlight", function() {
+                // Determine specified search term
+                var searchTerm = $(this).val();
+                // Highlight search term inside a specific context
+                $("#context3").unmark().mark(searchTerm);
+                }).trigger("input.highlight").focus();
+            });
+        </script>
+    </footer>
+
+        <!-- O PARTE DIN SCRIPT-URI-->
+
+       <!-- Legatura cu fisierul de javascript -->
+       <script src="index.js"></script>
+
+       <!-- Validare date in formularul de contact-->
+       <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+            (function () {
+            'use strict'
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.querySelectorAll('.needs-validation')
+
+            // Loop over them and prevent submission
+            Array.prototype.slice.call(forms)
+                .forEach(function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (!form.checkValidity()) {
+                    event.preventDefault()
+                    event.stopPropagation()
+                    }
+
+                    form.classList.add('was-validated')
+                }, false)
+                })
+            })()
+       </script>
+
+      
+    </body>
+</html>
