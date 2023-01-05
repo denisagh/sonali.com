@@ -105,7 +105,7 @@ function iterate(id) {
   
         // Show selection for op1
         op1.addEventListener("click", () => {
-            op1.style.backgroundColor = "#fce7e7";
+            op1.style.backgroundColor = "#E5D2C4";
             op2.style.backgroundColor = "#fff";
             op3.style.backgroundColor = "#fff";
             op4.style.backgroundColor = "#fff";
@@ -115,7 +115,7 @@ function iterate(id) {
     // Show selection for op2
     op2.addEventListener("click", () => {
         op1.style.backgroundColor = "#fff";
-        op2.style.backgroundColor = "#fce7e7";
+        op2.style.backgroundColor = "#E5D2C4";
         op3.style.backgroundColor = "#fff";
         op4.style.backgroundColor = "#fff";
         selected = op2.value;
@@ -125,7 +125,7 @@ function iterate(id) {
     op3.addEventListener("click", () => {
         op1.style.backgroundColor = "#fff";
         op2.style.backgroundColor = "#fff";
-        op3.style.backgroundColor = "#fce7e7";
+        op3.style.backgroundColor = "#E5D2C4";
         op4.style.backgroundColor = "#fff";
         selected = op3.value;
     })
@@ -135,7 +135,7 @@ function iterate(id) {
         op1.style.backgroundColor = "#fff";
         op2.style.backgroundColor = "#fff";
         op3.style.backgroundColor = "#fff";
-        op4.style.backgroundColor = "#fce7e7";
+        op4.style.backgroundColor = "#E5D2C4";
         selected = op4.value;
     })
   
